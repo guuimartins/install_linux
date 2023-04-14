@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#update do sistema
+sudo apt update && sudo apt upgrade
+
 # Install Docker
 sudo apt-get update
 sudo apt-get install -y docker.io
